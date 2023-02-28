@@ -1,0 +1,50 @@
+.Trending h1 {
+  font-size: 60px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.Trending-card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+.box {
+  padding: 5px 4px;
+  background-color: #fbf8f6;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0px 5px 40px rgb(157, 140, 140);
+  cursor: pointer;
+  transition: 0.8s ease;
+}
+.box:hover {
+  transform: scale(1.1);
+}
+.box h3 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.box p {
+  font-size: 16px;
+}
+.box-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box-price {
+  background-color: red;
+  color: white;
+  display: inline-block;
+  padding: 5px 15px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+.box-add {
+  font-size: 19px;
+  font-weight: 600;
+}
+.box-add:hover {
+  color: red;
+}

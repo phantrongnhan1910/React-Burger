@@ -1,0 +1,37 @@
+.footer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+  margin-top: 200px;
+}
+.footer-img img {
+  width: 300px;
+}
+.footer-network {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 30px;
+}
+.footer-network img {
+  font-size: 30px;
+}
+.contact-street {
+  display: flex;
+  text-align: center;
+  gap: 10px;
+}
+.Contact h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.Contact {
+  text-align: center;
+}
+.hour h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.link h2 {
+  font-size: 20px;
+  font-weight: bold;
+}

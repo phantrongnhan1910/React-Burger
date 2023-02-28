@@ -1,0 +1,80 @@
+.container-banner {
+  background-color: black;
+  height: 70rem;
+  color: white;
+  margin-top: 150px;
+}
+.banner {
+  display: flex;
+}
+.banner-img img {
+  width: 600px;
+  margin-right: 30px;
+}
+.banner-content span {
+  padding: 5px 15px;
+  background-color: red;
+  color: white;
+  display: inline-block;
+  border-radius: 15px;
+  margin: 10px;
+}
+.banner-content h2 {
+  font-size: 60px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.banner-content p {
+  font-size: 20px;
+}
+.banner-content .btn {
+  padding: 7px 30px;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+.banner-content .btn:hover {
+  background-color: red;
+  border: none;
+  transition: 0.1s linear;
+}
+.banner-bottom_content {
+  margin-top: 40px;
+}
+.banner-bottom_content span {
+  padding: 5px 20px;
+  background-color: red;
+  color: white;
+  display: inline-block;
+  border-radius: 15px;
+  margin-top: 40px;
+}
+.banner-bottom_content h2 {
+  font-size: 60px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.banner-bottom_content p {
+  font-size: 20px;
+}
+button {
+  padding: 7px 30px;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+button:hover {
+  background-color: red;
+  border: none;
+  transition: 0.1s linear;
+}
+.banner-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.banner-bottom img {
+  width: 45rem;
+}

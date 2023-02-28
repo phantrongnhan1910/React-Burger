@@ -1,0 +1,50 @@
+.header {
+  background-image: url(../img/banner.jpg);
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 40px;
+}
+.Container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 150px;
+  margin: 20px;
+}
+.Navbar ul {
+  display: flex;
+  gap: 50px;
+  padding: 20px;
+}
+.Navbar ul a {
+  color: rgb(231, 228, 225);
+}
+.content {
+  margin: 20px;
+  margin-top: 90px;
+  text-align: center;
+}
+.content span {
+  color: red;
+}
+.content h1 {
+  text-align: center;
+  font-size: 80px;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+}
+.content button {
+  padding: 10px 50px;
+  background-color: white;
+  color: red;
+  border-radius: 20px;
+}
+.content button:hover {
+  background-color: red;
+  color: white;
+  transition: 0.5s linear;
+}

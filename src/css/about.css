@@ -1,0 +1,32 @@
+.About {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  width: 100%;
+}
+.About-image img {
+  width: 650px;
+  height: 650px;
+  margin-left: 20px;
+}
+.About-content {
+  width: 50%;
+}
+.About-content span {
+  padding: 5px 20px;
+  background-color: #000000;
+  color: white;
+  border-radius: 16px;
+  font-size: 20px;
+}
+.About-content h2 {
+  font-size: 70px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.About-content p {
+  color: #836565;
+  margin-top: 10px;
+  font-size: 20px;
+}
